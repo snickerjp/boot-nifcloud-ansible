@@ -14,7 +14,7 @@
       name: "requests"
 
   - name: launch server
-    niftycloud:
+    nifcloud:
       access_key: "{{ access_key }}"
       secret_access_key: "{{ secret_access_key }}"
       endpoint: "{{ endpoint }}"
@@ -30,7 +30,7 @@
     with_sequence: count=2
 
   - name: Regist server to load balancer
-    niftycloud_lb:
+    nifcloud_lb:
       access_key: "{{ access_key }}"
       secret_access_key: "{{ secret_access_key }}"
       endpoint: "{{ endpoint }}"
