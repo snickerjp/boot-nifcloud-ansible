@@ -1,0 +1,26 @@
+---
+
+- hosts: nifcl_hosts
+  name: set up server
+  user: root
+  gather_facts: true
+
+  tasks:
+    - name: install ntp
+      yum:
+        name: ntp
+        state: present
+    - name: Check NTP service
+      service: name=ntpd state=started
+    - name: install epel-release repository
+      yum:
+        name: epel-release
+        state: present
+    - name: install nginx
+      yum:
+        name: nginx
+        state: present
+    - name: start nginx
+      service:
+        name: nginx
+        state: started
