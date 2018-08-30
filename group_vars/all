@@ -1,0 +1,19 @@
+# credential
+access_key: xxxxxxxxxxxxx
+secret_access_key: xxxxxxxxxxx
+endpoint: west-1.cp.cloud.nifty.com
+
+# FW
+fw_group_name: ansibletest # 事前準備で作成したFWの名前
+
+# Instance
+image_id: 68 # serverのイメージID
+key_name: west1ansibletest
+instance_type: mini
+availability_zone: west-11
+accounting_type: 2 # 月額:1 従量課金: 2
+ip_type: static
+instance_id_prefix: ansible
+instance_port: 80
+loadbalancer_name: "ansibletest" # 事前準備で作成したロードバランサーの名前
+loadbalancer_port: 80
