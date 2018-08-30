@@ -1,6 +1,6 @@
 ---
 
-- name: Provision instances in NiftyCloud
+- name: Provision instances in NifCloud
   hosts: localhost
   connection: local
   gather_facts: False
