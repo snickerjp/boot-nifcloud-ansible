@@ -19,5 +19,5 @@ yyy.yyy.yyy.yyy # 起動したサーバのip address
 ## provision Nginx
 
 ```
-ansible-playbook -I hosts nginx.yml
+ansible-playbook -i hosts nginx.yml
 ```
