@@ -12,8 +12,8 @@ ansible-playbook -i hosts provision.yml
 
 ```
 [nifcl_hosts]
-xxx.xxx.xxx.xxx # 起動したサーバのip address
-yyy.yyy.yyy.yyy # 起動したサーバのip address
+xxx.xxx.xxx.xxx # 起動したサーバのGlobal ip address
+yyy.yyy.yyy.yyy # 起動したサーバのGlobal ip address
 ```
 
 ## provision Nginx
