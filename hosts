@@ -1,2 +1,6 @@
 [localhost]
 127.0.0.1 ansible_python_interpreter=python
+
+[nifcl_hosts]
+xxx.xxx.xxx.xxx # 起動したサーバのip address
+yyy.yyy.yyy.yyy # 起動したサーバのip address
